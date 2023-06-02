@@ -65,4 +65,21 @@ showMore.addEventListener("click", (event) =>{
     searchImages()
 
 })
+const initialImages = document.querySelectorAll(".search-result img");
+initialImages.forEach((image) => {
+  image.addEventListener("click", () => {
+    const query = image.alt;
+    inputEl.value = query;
+    formEl.dispatchEvent(new Event("submit"));
+  });
+});
+
+// ...
+
+const backButton = document.getElementById("back-button");
+
+// Event listener for back button
+backButton.addEventListener("click", () => {
+  window.location.href = "index.html"; // Replace "index.html" with your home page URL
+});
 
