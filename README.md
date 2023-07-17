@@ -1,10 +1,8 @@
-
-
 # Image Search App
+The Image Search App is a web application that allows users to search for images using keywords. It utilizes the Unsplash API to fetch and display relevant images based on the user's search queries.
 
 ## LINK
 https://tranquil-granita-a21443.netlify.app/
-The Image Search App is a web application that allows users to search for images using keywords. It utilizes the Unsplash API to fetch and display relevant images based on the user's search queries.
 
 ## Features
 
